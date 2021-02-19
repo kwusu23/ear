@@ -1,0 +1,314 @@
+@media (max-width: 575.98px) {
+
+.ham{
+  display: block;float: right;margin-top: -40px;
+}
+.hamburger img{
+  float:right;
+}
+
+
+
+.fixed-list{
+
+  display: none;
+}
+
+.heading{
+  padding-top: 40px;
+}
+
+.home{
+  height:200px;
+}
+.profile{
+width: 70%;display: table;margin: 0 auto;top:-120px;
+
+}
+
+.profilePicture{
+display: table;margin: auto;width: 70%;
+}
+
+.profileName{
+  text-align: center;
+}
+
+.profilePicture img{
+  width:100%;
+}
+
+.socialHandle{
+  text-align: center;
+}
+.details{
+  padding-top: 10px;
+}
+
+.rating{
+display: table;margin: 0 auto;
+
+}
+
+.rev{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.chatPrice{
+
+  width: 100%;
+  margin-top: 30px;
+}
+
+.rev{
+  margin-bottom: 50px;
+}
+
+.audio{
+
+  width:100%;
+  height: 60px;
+
+}
+
+.description br{
+  content: "";
+
+}
+
+.description{
+  width:80%;
+}
+
+.download{
+  width:80%;margin-top: 20px;
+}
+.download p{
+  text-align: center;
+  font-size: 18px;
+}
+
+.downloadIcon{
+  width: 80%;display: table;margin: 0 auto;margin-top: 20px;
+}
+
+.playst{
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+.appst{
+  margin-bottom: 20px;
+}
+
+.downloadIcon img{
+
+  width: 80%;
+  display: table;margin: 0 auto;
+}
+
+.social{
+
+  width: 50%;
+  display: table;margin: 0 auto;
+
+
+
+}
+
+.social img{
+  float: right;width:30%;padding-right: 30px;
+}
+
+.heading{
+  margin-top: 15px;
+}
+
+.footer{
+  padding-bottom: 40px;
+}
+
+}
+
+
+
+
+/* ############################################ */
+
+@media (max-width: 400px) {
+
+  .audioContent{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+  }
+
+  .audioImage{
+
+    width:60%;
+  }
+
+  .profileName{
+
+  width: 100%;
+  font-size: 22px;
+
+  }
+
+  .downloadIcon img{
+
+    width: 65%;
+    display: table;margin: 0 auto;
+  }
+
+  .download{
+    width:85%;margin-top: 20px;
+  }
+  .download p{
+    text-align: center;
+    font-size: 16px;
+  }
+
+
+}
+
+
+/* ##################################################### */
+
+@media (max-width: 412px) {
+
+  .audioImage{
+
+    width:70%;
+  }
+  .audioContent{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+  }
+
+}
+
+
+@media (max-width: 320px) {
+
+  .audioImage{
+
+    width:55%;
+  }
+
+
+}
+
+@media (max-width: 360px) {
+
+  .audioImage{
+
+    width:10%;
+  }
+
+  .profile{
+
+    width:85%;
+  }
+
+
+}
+
+
+
+
+@media (min-width: 700px) and (max-width: 800px){
+
+  .description br{
+    content: "";
+
+  }
+
+  .pp{
+    margin-left: 150px;
+
+  }
+.profileName{
+  font-size: 22px;
+}
+
+.profile{
+
+  top:-120px
+}
+.chatPrice{
+
+padding-top: 15px;height: 40px;
+}
+
+.audio{
+  height:40px;
+}
+
+.audioImage{
+
+  width:55%;
+}
+
+.downloadIcon{
+
+
+
+}
+
+.downloadIcon img{
+
+  width:100%;
+}
+
+.playst{
+float:right;
+
+}
+
+}
+
+
+
+
+/* ######################## */
+
+@media (max-width: 1024px) {
+
+  .playst{
+    margin-left: -150px;
+  }
+
+
+}
+
+
+@media (max-width: 280px) {
+
+  .audioImage{
+
+    width:55%;
+  }
+
+  .playst{
+    margin-left: 0px;
+  }
+
+
+}
+
+
+@media (max-width: 540px) {
+
+
+  .playst{
+    margin-left: 0px;
+  }
+
+  .audioImage{
+
+    width:70%;
+  }

@@ -1,0 +1,285 @@
+@font-face {
+font-family: dm-sans;
+src: url(../font/DMSans-Regular.ttf);
+}
+
+@font-face {
+font-family: neue;
+src: url(../font/NHaasGroteskTXPro-55Rg.ttf);
+}
+
+.ham{
+
+  display: none;
+}
+.heading{
+  width: 85%;
+  display: table;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.navbar-nav{
+display: inline-block;
+float: right;
+
+}
+
+.navbar-nav li{
+display: inline-block;
+font-family: dm-sans;
+padding-left: 15px;
+
+
+}
+
+.fixed-list{
+padding-top: 10px;
+
+}
+
+.faq{
+  border-right: 2px solid #000;
+  padding-right: 15px;
+}
+
+
+.learn{
+
+  width:85%;display:table;margin:0 auto;padding-top:30px;
+}
+
+.learn p{
+  color: #121212;
+  font-family: dm-sans;
+}
+
+.more{
+  color:#029D57;
+}
+
+.home{
+  background-image:url('../images/home.png');height:300px;border-radius: 10px;
+  background-size: cover;background-repeat: no-repeat;
+  width: 85%;display: table;margin:0 auto;
+}
+
+.profile{
+width: 60%;display: table;margin: 0 auto;top:-150px;position:relative;
+
+}
+
+
+.profilePicture{
+width:80%
+}
+
+
+.profilePicture img{
+  width:80%;
+}
+
+.profileName{
+    font-family: dm-sans;
+    color: #121212;
+  font-style: normal;
+font-weight: 500;
+font-size: 30px;
+
+}
+
+.socialHandle{
+  font-family: dm-sans;
+  font-size: 18px;
+  color: rgba(18, 18, 18, 0.6);
+
+}
+
+.rating{
+  display: inline-block;
+}
+
+.score{
+  float:right;
+  font-family: dm-sans;
+  margin-left: 5px;
+  padding-top: 2px;
+  font-size: 18px;
+}
+
+
+.chatPrice p{
+font-family: dm-sans;font-size: 20px;
+line-height: 99.8%;
+text-align: center;color: #FFFFFF;
+
+}
+
+.chatPrice{
+display: flex;justify-content: center;align-items: center;height:60px;
+background: #029D57;
+border-radius: 5px;
+
+
+}
+
+
+
+.time{
+  float: right;color: rgba(18, 18, 18, 0.8);font-family: dm-sans;
+}
+
+.audio img{
+  padding-right:10px;
+}
+
+.audio{
+  display:inline-block;
+margin-top: 20px;background: #EFEFEF;
+border-radius: 5px;
+height:50px;
+
+}
+
+.description p{
+font-family: dm-sans;
+font-size: 17px;
+line-height: 160%;opacity: 0.6;
+
+}
+
+.description{
+  width:60%;display:table;margin:auto;margin-top:-150px;padding-top: 30px;
+}
+
+.download{
+  width:60%;display:table;margin:0 auto;padding-top: 20px;
+}
+
+.download p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #121212;
+
+}
+
+.downloadIcon{
+width:60%;display: table;margin: 0 auto;
+
+}
+
+.downloadIcon img{
+
+  width:50%;
+}
+
+.playst{
+  margin-left: -180px;
+}
+
+.footer{
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  width: 85%; display: table;margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+.social{
+  padding-top: 20px;
+}
+
+.social img{
+
+  padding-right: 20px;
+}
+
+.audioContent{
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+
+.mobile p{
+  text-align: center;font-family: dm-sans;
+}
+
+.mobile{
+  margin-top: 200px;
+}
+
+.mobileNav{
+  background-color: #FFFFFF;position:fixed;width:50%;z-index:999;top:0;height:100%;display: none;
+}
+
+.closediv img{
+  float:right;
+  padding-right: 50px;padding-top: 5px;
+}
+
+.closediv p{
+  float:left;padding-right: 15px;
+}
+
+.closediv{
+  float:right;margin-top: 20px;
+}
+
+
+/* ########################################################### */
+
+
+.slideRight{
+	animation-name: slideRight;
+	-webkit-animation-name: slideRight;
+
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease-in-out;
+	-webkit-animation-timing-function: ease-in-out;
+
+	visibility: visible !important;
+}
+
+@keyframes slideRight {
+	0% {
+		transform: translateX(-150%);
+	}
+	50%{
+		transform: translateX(8%);
+	}
+	65%{
+		transform: translateX(-4%);
+	}
+	80%{
+		transform: translateX(4%);
+	}
+	95%{
+		transform: translateX(-2%);
+	}
+	100% {
+		transform: translateX(0%);
+	}
+}
+
+@-webkit-keyframes slideRight {
+	0% {
+		-webkit-transform: translateX(-150%);
+	}
+	50%{
+		-webkit-transform: translateX(8%);
+	}
+	65%{
+		-webkit-transform: translateX(-4%);
+	}
+	80%{
+		-webkit-transform: translateX(4%);
+	}
+	95%{
+		-webkit-transform: translateX(-2%);
+	}
+	100% {
+		-webkit-transform: translateX(0%);
+	}
+}
